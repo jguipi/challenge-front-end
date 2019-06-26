@@ -63,4 +63,10 @@ img:hover {
     background-image: linear-gradient(90deg, #000, transparent);
 }
 
+.productInfo {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
 /*# sourceMappingURL=/styles.8986bff4.css.map */

@@ -71318,7 +71318,7 @@ function (_React$Component) {
             name = _clothDescriptiton$.name,
             price = _clothDescriptiton$.price;
         return _react.default.createElement("div", {
-          style: styles.infoStyle
+          className: "productInfo"
         }, _react.default.createElement(_core.Typography, {
           variant: "h2",
           component: "h3"
@@ -71335,7 +71335,7 @@ function (_React$Component) {
             _name = _clothDescriptiton$2.name,
             _price = _clothDescriptiton$2.price;
         return _react.default.createElement("div", {
-          style: styles.infoStyle
+          className: "productInfo"
         }, _react.default.createElement(_core.Typography, {
           variant: "h2",
           component: "h3"
@@ -71352,7 +71352,7 @@ function (_React$Component) {
             _name2 = _clothDescriptiton$3.name,
             _price2 = _clothDescriptiton$3.price;
         return _react.default.createElement("div", {
-          style: styles.infoStyle
+          className: "productInfo"
         }, _react.default.createElement(_core.Typography, {
           variant: "h2",
           component: "h3"
@@ -71458,11 +71458,6 @@ function (_React$Component) {
 var styles = {
   root: {
     height: "100vh"
-  },
-  infoStyle: {
-    width: "100%",
-    maxWidth: 500,
-    textAlign: "center"
   }
 };
 var _default = App;

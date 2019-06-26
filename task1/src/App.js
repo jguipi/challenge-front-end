@@ -78,7 +78,7 @@ class App extends React.Component {
     if (activeImages === images[0]) {
       const { description, name, price } = clothDescriptiton[0];
       return (
-        <div style={styles.infoStyle}>
+        <div className="productInfo">
           <Typography variant="h2" component="h3">
             {name}
           </Typography>
@@ -90,7 +90,7 @@ class App extends React.Component {
     } else if (activeImages === images[1]) {
       const { description, name, price } = clothDescriptiton[1];
       return (
-        <div style={styles.infoStyle}>
+        <div className="productInfo">
           <Typography variant="h2" component="h3">
             {name}
           </Typography>
@@ -102,7 +102,7 @@ class App extends React.Component {
     } else {
       const { description, name, price } = clothDescriptiton[2];
       return (
-        <div style={styles.infoStyle}>
+        <div className="productInfo">
           <Typography variant="h2" component="h3">
             {name}
           </Typography>
@@ -131,11 +131,6 @@ class App extends React.Component {
 const styles = {
   root: {
     height: "100vh"
-  },
-  infoStyle: {
-    width: "100%",
-    maxWidth: 500,
-    textAlign: "center"
   }
 };
 
